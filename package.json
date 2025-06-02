@@ -2,7 +2,7 @@
   "name": "ecuacion-backend",
   "version": "1.0.0",
   "main": "src/server.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node src/server.js"
   },
