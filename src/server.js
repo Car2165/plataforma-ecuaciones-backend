@@ -12,4 +12,7 @@ app.use(express.json());
 app.use('/api/users', usersRoutes);
 
 const PORT = process.env.PORT || 5000;
+app.get('/', (req, res) => {
+  res.send('✅ Plataforma de ecuaciones funcionando correctamente.');
+});
 app.listen(PORT, () => console.log(`Servidor corriendo en puerto ${PORT}`));
